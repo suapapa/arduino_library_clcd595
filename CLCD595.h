@@ -13,9 +13,6 @@
 #ifndef CLCD595_H
 #define CLCD595_H
 
-//#include "WConstants.h"
-#include <WProgram.h>
-
 #define CLCD595_ITOA_BUF_LEN 12
 
 #define RSMODE_CMD 0

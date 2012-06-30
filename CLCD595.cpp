@@ -10,6 +10,13 @@
  * If not, see <http://www.gnu.org/licenses/>.
  */
 
+#if defined(ARDUINO) && ARDUINO >= 100
+  #include <Arduino.h>
+#else
+  #include <WProgram.h>
+  #include <pins_arduino.h>
+#endif
+
 #include "CLCD595.h"
 
 #define BITMASK_RS 0x10 //(0x01<<4)
